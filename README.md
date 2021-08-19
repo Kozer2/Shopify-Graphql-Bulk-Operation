@@ -17,4 +17,5 @@ Note: This app does not run automatically, you will need to babysit it.
 `pip install requests`
 
 Once setup is completed, you will need to enter your shop name as it appears in the homepage URL of your Shopify Store. Then enter the API password as the token. 
+Now you can begin running the code. I suggest you run the functions one at a time. IE: Comment out the second function call and print statements at the bottom and only run the first function. Comment out that function call and prints and now just run the second one. That will give you back the status. Upon completion you can grab the file and open and turn it into a CSV 
 
