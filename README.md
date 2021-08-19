@@ -12,5 +12,9 @@ Note: This app does not run automatically, you will need to babysit it.
 
 ### Setup
 
-> pip install pandas
-> pip install requests
+`pip install pandas`
+
+`pip install requests`
+
+Once setup is completed, you will need to enter your shop name as it appears in the homepage URL of your Shopify Store. Then enter the API password as the token. 
+
