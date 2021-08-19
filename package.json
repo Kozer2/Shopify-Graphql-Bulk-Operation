@@ -1,0 +1,25 @@
+{
+  "name": "shopify-graphql-bulk-operation",
+  "version": "1.0.0",
+  "description": "Project designed for bulk operations in python for the shopify API",
+  "main": "CustomerLists.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kozer2/Shopify-Graphql-Bulk-Operation.git"
+  },
+  "keywords": [
+    "Python",
+    "Graphql",
+    "Bulk",
+    "Operation"
+  ],
+  "author": "BenH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kozer2/Shopify-Graphql-Bulk-Operation/issues"
+  },
+  "homepage": "https://github.com/Kozer2/Shopify-Graphql-Bulk-Operation#readme"
+}
