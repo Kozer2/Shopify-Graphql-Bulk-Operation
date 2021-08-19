@@ -2,11 +2,9 @@ import requests
 import pandas as pd
 
 # Runtime notes: ~8000 calls takes ~30 secs, ~65000 takes several minutes, 150k+ takes 10+ minutes
-
+shop = 'YOUR SHOP NAME HERE' # Shop is what your shop is called in your homepage URL. EG. Shop called MyShop would be myshop.myshopify.com. Shop name = myshop
+token = 'YOUR API PASSWORD HERE' # Token is the API Password
 def getCustomerInfo():
-    shop = 'YOUR SHOP NAME HERE' # Shop is what your shop is called in your homepage URL. EG. Shop called MyShop would be myshop.myshopify.com. Shop name = myshop
-    token = 'YOUR API PASSWORD HERE' # Token is the API Password
-
     headers = {
         'Content-Type': 'application/json', # Need to tell the API that it is application/json 
         'X-Shopify-Access-Token': f'{token}',
@@ -47,8 +45,6 @@ def getCustomerInfo():
     return response.json()
 
 def checkBulkStatus():
-    shop = 'YOUR SHOP NAME HERE' # Shop is what your shop is called in your homepage URL. EG. Shop called MyShop would be myshop.myshopify.com. Shop name = myshop 
-    token = 'YOUR API PASSWORD HERE' # Token is the API Password
     headers = {
         'Content-Type': 'application/json',  # Need to tell the API that it is application/json 
         'X-Shopify-Access-Token': f'{token}',
